@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Orders - Foodie</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="navbar">
+    <h2>🍽️ Foodie</h2>
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Menu</a>
+      <a class="active" href="#">My Orders</a>
+      <a href="#">Logout</a>
+    </div>
+  </div>
+
+  <div class="order-container">
+    <h1>My Orders</h1>
+
+    <div class="order-card">
+      <img src="https://source.unsplash.com/100x100/?burger" alt="Burger" />
+      <div class="order-details">
+        <h3>Cheese Burger 🍔</h3>
+        <p>Quantity: 2</p>
+        <p>Status: <span class="status preparing">Preparing</span></p>
+        <p>Price: ₹300</p>
+      </div>
+    </div>
+
+    <div class="order-card">
+      <img src="https://source.unsplash.com/100x100/?pizza" alt="Pizza" />
+      <div class="order-details">
+        <h3>Margherita Pizza 🍕</h3>
+        <p>Quantity: 1</p>
+        <p>Status: <span class="status delivered">Delivered</span></p>
+        <p>Price: ₹250</p>
+      </div>
+    </div>
+
+    <div class="total">
+      <strong>Total Amount:</strong> ₹550
+    </div>
+  </div>
+
+</body>
+</html>
